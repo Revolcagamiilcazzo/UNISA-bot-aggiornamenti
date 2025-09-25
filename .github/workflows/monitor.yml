@@ -2,8 +2,10 @@ name: UNISA News Bot
 
 on:
   schedule:
-    - cron: "0 5-1 * * *"   # ogni ora dalle 05:00 alle 01:00
-  workflow_dispatch:       # avvio manuale
+    - cron: "0 5-23 * * *"   # ogni ora dalle 05:00 alle 23:00
+    - cron: "0 0-1 * * *"    # ogni ora da mezzanotte alle 01:00
+  workflow_dispatch:
+
 
 jobs:
   run:
