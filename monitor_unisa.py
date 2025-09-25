@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-# === CONFIGURA QUI LE PAGINE DA MONITORARE ===
+# === PAGINE DA MONITORARE ===
 URLS = [
     "https://www.dipsum.unisa.it/home/news",
     "https://corsi.unisa.it/linguistica-e-didattica-dell-italiano/comunicazioni-docenti",
